@@ -1,0 +1,215 @@
+*{
+    margin: 0;padding: 0;box-sizing: border-box;
+}
+
+.container{
+
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo img{
+    width: 100px;
+    padding-left: 10%;
+
+
+}
+
+.menu{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10%;
+
+}
+
+.menu li{
+
+        margin-left:9px;
+}
+.menu li::before{
+    content: "";
+    background-color: black;
+    height: 3px;
+    display: block;
+    margin: auto;
+    width: 170px;
+
+}
+.menu li:nth-child(1)::before {
+    content: "";
+    background-color: rgb(201, 31, 31);
+    height: 3px;
+    display: block;
+    margin: auto;
+    width: 170px;
+
+}
+.menu li:hover::before{
+  
+    background-color: rgb(255, 0, 64);
+  
+
+}
+
+
+.menu li a {
+
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    
+
+
+
+}
+.text-box{
+
+   font-size: 3rem;
+    padding: 4rem;
+    text-align: center;
+  
+
+}
+.background{
+    text-align: center;
+
+}
+
+
+.background img {
+
+    margin-bottom: 4rem;
+    width: 57rem;
+
+}
+.left-side{
+    width: 30%;
+}
+.right-side{
+    width: 60%;
+
+}
+.box {
+    display: flex;
+    margin-bottom: 4rem;
+}
+h2{
+    font-weight: 550;
+}
+
+.description{
+    margin: 15px 60px 0 15px;
+}
+
+
+.accoridan{
+    max-width: 800px;
+    display: block;
+    margin: 100px auto;
+}
+.accoridan .card{
+
+    border-top: 1px solid black;
+   
+    margin-bottom: 20px;
+}
+.accoridan .card-header h3{
+
+    cursor: pointer;
+    color: rgb(24, 8, 8);
+    position: relative;
+    margin: 0;
+    padding: 12px 20px;
+}
+h3 span{
+
+
+    position: absolute;
+    right: 20px;
+    top: 15px;
+
+}
+.card-body{
+
+
+    padding: 20px;
+      display: none;
+}
+.card-body p{
+
+    font-size: 15px;
+    line-height: 24px;
+    color: indigo;
+    margin: 0;
+  
+}
+footer{
+
+    text-align: center;
+    background-color: black;
+    color: blanchedalmond;
+    padding: 3rem;
+}
+
+.row{
+    display: flex;
+
+}
+
+.right{
+    flex:1;
+    text-align: justify;
+    margin-left: 4rem;
+    
+}
+.right h2,
+.right span{
+    color: orangered;
+}
+
+.left{
+
+    flex: 3;
+    text-align: justify;
+    margin-left: 4rem;
+}
+
+.pera{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.right .end{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.626);
+    color: gray;
+    
+}
+.right .end span{
+    color: gray;
+    
+
+}
+.right .end .con{
+    margin-left: 155px;
+    color: gray;
+}
+.btn{
+
+    background-color: transparent;
+    border: 1px solid white;
+    text-align: center;
+    padding: 0.3rem 5rem;
+    border-radius: 5rem;
+    margin-top: 1rem;
+    color: #eee;
+
+}
+
+
